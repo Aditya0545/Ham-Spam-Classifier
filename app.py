@@ -2,6 +2,7 @@ import streamlit as st
 import joblib
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')  # Add this line to download stopwords
 import string
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
